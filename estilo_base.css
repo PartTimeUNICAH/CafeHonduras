@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    color: rgb(148, 103, 62);
+}
+
+header img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 1rem;
+    padding: 1rem;
+    background: #555;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    box-shadow: 3px black;
+}
+
+header nav ul li a {
+    display: inline-block;
+    color: black;
+    background-color: rgb(63, 127, 211);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    box-shadow: 1px 1px 3px #000;
+    border-radius: 0.8rem 0.4rem;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+}
+
+.hero .textContent {
+    position: absolute;
+    right: 50%;
+    top: 20%;
+    transform: translateX(50%);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.hero .textContent h2 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    color: #3f83e9;
+    text-align: center;
+    background-color: transparent;
+}
+
+.hero .boxmodel {
+    width: 100%;
+    height: 75%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero .boxmodel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.cafefacts h2 {
+    font-size: 1.1rem;
+    margin: 0.25rem;
+    padding: 0.25rem;
+    text-align: center;
+} 
+
+.cafefacts p {
+    margin: 0.25rem;
+    padding: 0.25rem;
+}
+
+footer {
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-decoration: none;
+}
+
+footer h2 {
+    font-size: 0.75rem;
+    padding: 2px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    left: 60%;
+    transform: translateX(-10%);
+}
+
+footer ul li {
+    font-size: 0.5rem;
+}
+
+.aboutus ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: white;
+}
