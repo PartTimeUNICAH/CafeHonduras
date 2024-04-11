@@ -1,21 +1,81 @@
 <!DOCTYPE html>
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Café Hondureño - Contáctenos</title>
+    <title>CafeHonduras</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo_base.css">
+
 </head>
+
 <body>
-  <header>
-    <h1>Café Hondureño</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Productos</a></li>
-        <li><a href="#">Acerca de</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section id="contacto">
+    <header>
+            <div class="logo">
+                <img src="https://images.unsplash.com/photo-1518057111178-44a106bad636?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Logo CafeHonduras">
+            </div>
+            <h1>CafeHonduras</h1>
+        <nav>
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Inicio</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a href="/inicio.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="/programas.html">Programas</a>
+                    </li>
+                    <li>
+                        <a href="/galeria.html">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="/blog.html">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="dropdown1 col-s-12">
+                <div class="select1">
+                    <span class="selected1">Acerca de Nosotros</span>
+                    <div class="caret1"></div>
+                </div>
+                <ul class="menu1">
+                    <li class="active1">
+                        <a href="/acerca_de.html"">Acerca de Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="/eventos.html">Eventos</a>
+                    </li>
+                    <li>
+                        <a href="/faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="dropdown2 col-s-12">
+                <div class="select2">
+                    <span class="selected2">Contactenos</span>
+                    <div class="caret2"></div>
+                </div>
+                <ul class="menu2">
+                    <li class="active2">
+                        <a href="/info_contacto.html">Contactenos</a>
+                    </li>
+                    <li>
+                        <a href="/ayuda.html">Como Ayudar</a>
+                    </li>
+                    <li>
+                        <a href="/donacion.html">Donaciones</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+  <section id="contacto col-s-12">
     <h2>Contáctenos</h2>
     <div class="informacion">
       <h3>Información de contacto</h3>
@@ -23,7 +83,7 @@
       <p>Correo electrónico: info@cafehondureno.com</p>
       <p>Dirección: Boulevard Suyapa, Tegucigalpa, Honduras</p>
     </div>
-    <div class="formulario">
+    <div class="formulario col-s-6">
       <h3>Formulario de contacto</h3>
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
@@ -36,7 +96,14 @@
     </div>
   </section>
   <footer>
-    <p>2024 Café Hondureño. Todos los derechos reservados.</p>
-  </footer>
+    <div>
+        <p>Teléfono: +504 2234-5678</p>
+        <p>WhatsApp +504 9673-0717</p>
+        <p>Correo electrónico: info@cafehondureno.com</p>
+      <p>Dirección: Boulevard Suyapa, Tegucigalpa, Honduras</p>
+        <p>© Todos los Derechos Reservados PW2024</p>
+    </div>
+</footer>
 </body>
+<script src="codigo.js"></script>
 </html>
