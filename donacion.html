@@ -1,27 +1,59 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <title>CafeHonduras</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donaciones para el Café en Honduras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo_base.css">
 </head>
 <body>
+    <div class="logoimg">
+        <img src="/imgs/logo.png" alt="Logo Café Honduras">
+    </div>
     <header>
-        <h1>Donaciones para el Café en Honduras</h1>
-        <p>Ayúdanos a apoyar a los productores de café en Honduras haciendo una donación.</p>
+        <div class="logo">Café Honduras</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="/inicio.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="/programas.html">Programas</a>
+                </li>
+                <li>
+                    <a href="/galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="/blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="/acerca_de.html">Acerca de Nosotros</a>
+                </li>
+                <li>
+                    <a href="/eventos.html">Eventos</a>
+                </li>
+                <li>
+                    <a href="/faq.html">FAQ</a>
+                </li>
+                <li>
+                    <a href="/info_contacto.html">Contactenos</a>
+                </li>
+                <li>
+                    <a href="/ayuda.html">Como Ayudar</a>
+                </li>
+                <li>
+                    <a href="/donacion.html" class="active">Donaciones</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <section>
-        <h2>¿Cómo hacer una donación?</h2>
-        <p>Puedes hacer una donación utilizando el siguiente formulario en línea:</p>
-        <form action="procesar_donacion.php" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required><br>
-            <label for="correo">Correo electrónico:</label>
-            <input type="email" id="correo" name="correo" required><br>
-            <label for="monto">Monto:</label>
-            <input type="number" id="monto" name="monto" min="1" required><br>
-            <button type="submit">Donar</button>
-        </form>
-    </section>
 </body>
 </html>
