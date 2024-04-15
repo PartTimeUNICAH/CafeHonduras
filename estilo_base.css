@@ -31,7 +31,7 @@ header {
     position: relative;
 }
 
-.carousel > ul {
+.carousel>ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -52,7 +52,8 @@ header {
     background: rgba(0, 0, 0, 0.1)
 }
 
-.carousel button:hover, .carousel button:focus {
+.carousel button:hover,
+.carousel button:focus {
     color: rgba(255, 255, 255, 0.5);
     background: rgba(0, 0, 0, 0.2)
 }
@@ -77,7 +78,7 @@ header {
     transition-delay: 0.2s;
 }
 
-.slide > img {
+.slide>img {
     display: block;
     width: 100%;
     height: 100%;
@@ -106,6 +107,14 @@ header {
     padding: 40px;
     justify-content: center;
     font-size: 1.75rem;
+    text-align: justify;
+}
+
+.textMain2 p {
+    padding: 60px 120px;
+    font-size: 1.75rem;
+    background-color: #fde888;
+    text-align: justify;
 }
 
 .cafeimagen img {
@@ -119,7 +128,7 @@ header {
 
 .lowerImg img {
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     padding: 40px;
     object-fit: cover;
     display: block;
@@ -197,6 +206,63 @@ header {
     padding-right: 80px;
     object-fit: cover;
     display: flex;
+}
+
+.todoCards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.8rem auto;
+    max-width: 1600px;
+    transition: 0.2s;
+}
+
+.todoCards .card {
+    box-sizing: border-box;
+    flex: 1 1 30%;
+    max-width: 350px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #000;
+    padding: 0px 0.5rem;
+    color: #fff;
+    margin: 80px;
+    background-color: rgb(255, 243, 130);
+    text-align: justify;
+}
+
+#card1:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#card1 {
+    transition: 0.2s;
+}
+
+#card2:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#card2 {
+    transition: 0.2s;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    padding: 15px 15px 5px 15px;
+    border-radius: 20px;
+}
+
+.card h3 {
+    padding-left: 10px;
+    color: #000;
+}
+
+.card p {
+    padding: 10px;
+    color: #000;
 }
 
 footer {
@@ -328,7 +394,7 @@ footer p {
         background: rgb(0, 0, 0);
         margin: 6px 0;
     }
- 
+
     .nav-bar {
         height: 0;
         position: absolute;
@@ -413,9 +479,86 @@ footer p {
         margin-bottom: 12px;
         color: rgb(0, 0, 0);
     }
+
+    .textMain p {
+        font-size: 1.5rem;
+    }
+
+    .cafeimagen img {
+        padding: 30px;
+        margin-top: 90px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .cafeimagen img {
+        margin-top: 100px;
+        padding: 10px;
+    }
+
+    .textMain p {
+        font-size: 1.25rem;
+    }
+
+    .textMain h2 {
+        font-size: 1.75rem;
+    }
+
+    .lowerImg img {
+        padding: 0px 40px 40px 40px;
+        height: 400px;
+    }
 }
 
 @media only screen and (max-width: 660px) {
+    .grid .col-s-1 {
+        flex: 0 0 calc(100%/12);
+    }
+
+    .grid .col-s-2 {
+        flex: 0 0 calc(100%/6);
+    }
+
+    .grid .col-s-3 {
+        flex: 0 0 calc(100%/4);
+    }
+
+    .grid .col-s-4 {
+        flex: 0 0 calc(100%/3);
+    }
+
+    .grid .col-s-5 {
+        flex: 0 0 calc(100%/12*5);
+    }
+
+    .grid .col-s-6 {
+        flex: 0 0 calc(100%/2);
+    }
+
+    .grid .col-s-7 {
+        flex: 0 0 calc(100%/12*7);
+    }
+
+    .grid .col-s-8 {
+        flex: 0 0 calc(100%/12*8);
+    }
+
+    .grid .col-s-9 {
+        flex: 0 0 calc(100%/12*9);
+    }
+
+    .grid .col-s-10 {
+        flex: 0 0 calc(100%/12*10);
+    }
+
+    .grid .col-s-11 {
+        flex: 0 0 calc(100%/12*11);
+    }
+
+    .grid .col-s-12 {
+        flex: 0 0 100%;
+    }
+
     .hamburger {
         display: block;
         cursor: pointer;
@@ -461,5 +604,112 @@ footer p {
     .nav-bar ul li a {
         margin-bottom: 12px;
         color: rgb(0, 0, 0);
+    }
+
+    .cafeimagen img {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .grid .col-xs-1 {
+        flex: 0 0 calc(100%/12);
+    }
+
+    .grid .col-xs-2 {
+        flex: 0 0 calc(100%/6);
+    }
+
+    .grid .col-xs-3 {
+        flex: 0 0 calc(100%/4);
+    }
+
+    .grid .col-xs-4 {
+        flex: 0 0 calc(100%/3);
+    }
+
+    .grid .col-xs-5 {
+        flex: 0 0 calc(100%/12*5);
+    }
+
+    .grid .col-xs-6 {
+        flex: 0 0 calc(100%/2);
+    }
+
+    .grid .col-xs-7 {
+        flex: 0 0 calc(100%/12*7);
+    }
+
+    .grid .col-xs-8 {
+        flex: 0 0 calc(100%/12*8);
+    }
+
+    .grid .col-xs-9 {
+        flex: 0 0 calc(100%/12*9);
+    }
+
+    .grid .col-xs-10 {
+        flex: 0 0 calc(100%/12*10);
+    }
+
+    .grid .col-xs-11 {
+        flex: 0 0 calc(100%/12*11);
+    }
+
+    .grid .col-xs-12 {
+        flex: 0 0 100%;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+
+    }
+
+    .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background: rgb(0, 0, 0);
+        margin: 6px 0;
+    }
+
+    .nav-bar {
+        height: 0;
+        position: absolute;
+        top: 190px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: rgb(255, 255, 255);
+        transition: 0.5s;
+        overflow: hidden;
+    }
+
+    .nav-bar.active {
+        height: 600px;
+    }
+
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 25px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+
+    .nav-bar ul li a {
+        margin-bottom: 12px;
+        color: rgb(0, 0, 0);
+    }
+
+    .cafeimagen img {
+        margin-top: 0;
+        height: 200px;
+        padding: 10px;
     }
 }
