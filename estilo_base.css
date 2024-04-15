@@ -182,32 +182,6 @@ header {
     background: rgb(0, 0, 0);
 }
 
-.cafefacts {
-    margin: 0;
-    padding: 0;
-}
-
-.cafefacts h2 {
-    font-size: 2rem;
-    text-align: center;
-    padding-top: 40px;
-}
-
-.cafefacts p {
-    padding: 30px 30px;
-    justify-content: center;
-    font-size: 1.5rem;
-}
-
-.cafeimg img {
-    width: 100%;
-    height: 100%;
-    padding-top: 80px;
-    padding-right: 80px;
-    object-fit: cover;
-    display: flex;
-}
-
 .todoCards {
     display: flex;
     flex-wrap: wrap;
@@ -356,29 +330,36 @@ footer p {
 
 /* Pagina de About Us */
 
-.info1 h2 {
+.info h2 {
     text-align: center;
     font-size: 2.5rem;
+    padding: 40px 0px 0px 0px;
 }
 
-.info1 p {
-    text-align: center;
-    padding-left: 20px;
-    margin: 0;
+.info p {
+    text-align: justify;
+    padding: 40px;
     font-size: 2rem;
 }
 
-.info2 h2 {
-    text-align: center;
-    font-size: 2.5rem;
+.infocontacto h2 {
+    padding: 0px 0px 0px 40px;
+    font-size: 2rem;
 }
 
-.info2 p {
-    text-align: center;
-    justify-content: center;
-    padding-right: 20px;
-    margin: 0;
-    font-size: 2rem;
+.infocontacto p {
+    font-size: 1.25rem;
+    padding-top: 10px;
+}
+
+.infocontacto a {
+    color: rgb(201, 152, 62);
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.infocontacto ul {
+    padding: 0px 0px 20px 40px;
 }
 
 /* Pagina de Galeria */
@@ -394,6 +375,7 @@ footer p {
 }
 
 .title p {
+    padding: 30px;
     font-size: 2rem;
 }
 
@@ -411,6 +393,108 @@ footer p {
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+#img1:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#img1 {
+    transition: 0.2s;
+}
+
+#img2:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#img2 {
+    transition: 0.2s;
+}
+
+#img3:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#img3 {
+    transition: 0.2s;
+}
+
+#img4:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#img4 {
+    transition: 0.2s;
+}
+
+#img5:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#img5 {
+    transition: 0.2s;
+}
+
+#img6:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#img6 {
+    transition: 0.2s;
+}
+
+/* Pagina de Historia del Cafe */
+
+.cafefacts {
+    margin: 0;
+    padding: 0;
+}
+
+.cafefacts h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.cafefacts p {
+    padding: 40px;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.cafeimg img {
+    width: 400px;
+    height: 500px;
+    padding: 40px;
+    object-fit: cover;
+    display: flex;
+    border-radius: 55px;
+}
+
+#historia1 p {
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.textMain ul {
+    padding: 0px 0px 40px 40px;
+}
+
+.textMain ul li {
+    padding: 10px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.cafeimagen1 img {
+    padding: 40px;
 }
 
 @media only screen and (max-width: 1520px) {
