@@ -381,6 +381,38 @@ footer p {
     font-size: 2rem;
 }
 
+/* Pagina de Galeria */
+
+.title {
+    display: block;
+    text-align: center;
+}
+
+.title h2 {
+    padding: 30px;
+    font-size: 3rem;
+}
+
+.title p {
+    font-size: 2rem;
+}
+
+.gallery-img img {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    object-fit: cover;
+    flex-wrap: nowrap;
+}
+
+.imagenes {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 @media only screen and (max-width: 1520px) {
     .hamburger {
         display: block;
