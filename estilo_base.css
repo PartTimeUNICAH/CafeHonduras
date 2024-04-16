@@ -544,8 +544,26 @@ footer p {
 
 /* Pagina de Contacto */
 
+.donaciones h2 {
+    padding: 40px;
+}
+
+.donaciones img {
+    width: 400px;
+    height: 500px;
+    padding: 40px;
+    object-fit: cover;
+    display: inline-block;
+    border-radius: 55px;
+}
+
+.cita_biblica p {
+    font-size: 2.5rem;
+    padding: 40px;
+    font-style: oblique;
+}
+
 .modern {
-    margin: 0 auto;
     margin-top: 50px;
 }
 
@@ -584,7 +602,7 @@ footer p {
 .modern .field input,
 .modern .field textarea {
     background-color: transparent;
-    border: none;
+    border: 1px solid #000;
     border-bottom: 2px solid #333;
     outline: none;
 }
@@ -647,6 +665,159 @@ footer p {
 .info_ayuda p {
     font-size: 1.25rem;
     padding: 40px;
+}
+
+/* Pagina de Eventos */
+
+.events {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 110vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.first-event-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 35%;
+    margin-bottom: 10rem;
+}
+
+.first-event-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 100%;
+    justify-content: center;
+    align-items: baseline;
+    margin-right: 5%;
+}
+
+.first-event-text-container h1 {
+    font-size: 50px;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-weight: 400;
+}
+
+.first-event-text-container h2 {
+    font-size: 22px;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-weight: 300;
+    margin-top: 2rem;
+    width: 80%;
+    text-align: justify;
+}
+
+
+.first-event-image-container {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.image-container-1 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image-container-1 img {
+    max-width: 90%;
+    max-height: 100%;
+}
+
+.image-container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image-container-2 img {
+    max-width: 90%;
+    max-height: 100%;
+}
+
+.second-event-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70%;
+}
+
+.first-second-event-info-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.first-second-event-info-container h1 {
+    font-size: 50px;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.first-second-event-info-container h2 {
+    font-size: 20px;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-weight: 300;
+    width: 71%;
+    text-align: justify;
+}
+
+.first-second-event-info-container img {
+    max-width: 94%;
+    max-height: 100%;
+    margin-top: 4rem;
+}
+
+.second-second-event-info-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.second-second-event-info-container img {
+    max-width: 75%;
+    max-height: 100%;
+    margin-top: 5.85rem;
+}
+
+.second-second-event-info-container h2 {
+    font-size: 20px;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-weight: 300;
+    width: 80%;
+    text-align: justify;
+    padding-top: 2rem;
 }
 
 @media only screen and (max-width: 1520px) {
