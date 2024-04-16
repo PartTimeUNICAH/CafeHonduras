@@ -221,6 +221,15 @@ header {
     transition: 0.2s;
 }
 
+#card3:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#card3 {
+    transition: 0.2s;
+}
+
 .card img {
     width: 100%;
     object-fit: cover;
@@ -362,6 +371,14 @@ footer p {
     padding: 0px 0px 20px 40px;
 }
 
+#estanteImg img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    padding: 20px;
+    margin-left: 30px;
+}
+
 /* Pagina de Galeria */
 
 .title {
@@ -494,6 +511,141 @@ footer p {
 }
 
 .cafeimagen1 img {
+    padding: 40px;
+}
+
+/* Pagina de FAQ */
+
+.faq-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde888;
+}
+
+.faq-intro h2 {
+    padding: 40px;
+    font-size: 2rem;
+}
+
+.faq-intro p {
+    font-size: 1.25rem;
+}
+
+.faq p {
+    font-size: 1.75rem;
+    padding: 20px 70px 70px 70px;
+    text-align: justify;
+}
+
+.bold {
+    font-style: italic;
+}
+
+/* Pagina de Contacto */
+
+.modern {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.field,
+.actions {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+}
+
+.field input,
+.field textarea {
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.field label {
+    font-size: 1.5rem;
+}
+
+.actions {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.actions input[type="submit"] {
+    border: 1px solid #000;
+    background-color: #2438a7;
+    color: #fff;
+    padding: 0.8rem 1.2rem;
+    box-shadow: 1px 1px 3px #000;
+    display: inline-block;
+    border-radius: 1.76rem;
+}
+
+.modern .field input,
+.modern .field textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+
+.actions button {
+    padding: 10px;
+    font-size: 1.25rem;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde888;
+}
+
+.contacto h2 {
+    padding: 30px;
+    font-size: 2rem;
+}
+
+.contacto p {
+    font-size: 1rem;
+}
+
+.contacto p {
+    font-size: 1.75rem;
+    padding: 30px;
+}
+
+#warnings {
+    font-size: 2rem;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.imgs img {
+    width: 800px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Pagina Como Ayudar */
+
+.info_ayuda {
+    justify-content: center;
+}
+
+.info_ayuda h2 {
+    padding-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.info_ayuda p {
+    font-size: 1.25rem;
     padding: 40px;
 }
 
